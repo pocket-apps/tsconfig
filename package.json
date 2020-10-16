@@ -1,7 +1,7 @@
 {
   "name": "@pocket-studios/tsconfig",
   "description": "Shareable TypeScript config for our projects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "homepage": "https://github.com/pocket-studios/tsconfig#readme",
   "repository": "github:pocket-studios/tsconfig",
