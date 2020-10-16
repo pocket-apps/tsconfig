@@ -1,0 +1,40 @@
+{
+  "name": "@pocket-studios/tsconfig",
+  "description": "Shareable TypeScript project configuration",
+  "version": "0.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/pocket-studios/tsconfig#readme",
+  "repository": "github:pocket-studios/tsconfig",
+  "main": "tsconfig.json",
+  "scripts": {
+    "format": "prettier --write *.{json,md}",
+    "format:check": "prettier --check *.{json,md}"
+  },
+  "keywords": [
+    "tsc",
+    "tsconfig",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "husky": "4.3.0",
+    "lint-staged": "10.4.0",
+    "prettier": "2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write"
+    ]
+  }
+}
