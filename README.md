@@ -12,6 +12,10 @@ yarn add -D @pocket-studios/tsconfig
 
 ```json
 {
-  "extends": "@pocket-studios/tsconfig"
+  "extends": "@pocket-studios/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
 }
 ```
