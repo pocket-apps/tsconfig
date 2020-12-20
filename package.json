@@ -1,10 +1,10 @@
 {
-  "name": "@pocket-studios/tsconfig",
+  "name": "@pocket-apps/tsconfig",
   "description": "Shareable TypeScript config for our projects",
   "version": "0.1.1",
   "license": "MIT",
-  "homepage": "https://github.com/pocket-studios/tsconfig#readme",
-  "repository": "github:pocket-studios/tsconfig",
+  "homepage": "https://github.com/pocket-apps/tsconfig#readme",
+  "repository": "github:pocket-apps/tsconfig",
   "main": "tsconfig.json",
   "scripts": {
     "format": "prettier --write *.{json,md}",

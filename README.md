@@ -1,18 +1,18 @@
-# @pocket-studios/tsconfig
+# @pocket-apps/tsconfig
 
 Shareable TypeScript project configuration.
 
 ## Install
 
 ```bash
-yarn add -D @pocket-studios/tsconfig
+yarn add -D @pocket-apps/tsconfig
 ```
 
 ## Usage
 
 ```json
 {
-  "extends": "@pocket-studios/tsconfig",
+  "extends": "@pocket-apps/tsconfig",
   "compilerOptions": {
     "baseUrl": "src"
   },
